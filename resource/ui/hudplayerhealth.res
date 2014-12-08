@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"100"		[$WIN32]
+		"xpos"			"250"		[$WIN32]
 		"ypos"			"300"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
@@ -23,12 +23,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"75"
-		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
@@ -41,12 +40,38 @@
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
+	}
+
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"80"
+		"ypos"			"90"
+		"zpos"			"2"
+		"wide"			"45"
+		"tall"	 		"3"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}	
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -79,13 +104,13 @@
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BikoRegular12"
-		"fgcolor"		"TanDark"
+		"font"			"BikoRegular48"
+		"fgcolor"		"White"
 	}								
 	"PlayerStatusBleedImage"
 	{
