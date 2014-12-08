@@ -51,10 +51,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"80"
+		"xpos"			"99"
 		"ypos"			"90"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"55"
 		"tall"	 		"3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -103,7 +103,7 @@
 		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
